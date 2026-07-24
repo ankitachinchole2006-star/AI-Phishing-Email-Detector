@@ -265,31 +265,31 @@ http://localhost:8501
 
 ## Dashboard
 
-![Dashboard](screenshots/dashboard.png.png)
+![Dashboard](screenshots/dashboard.png)
 
 ---
 
 ## Phishing Detection
 
-![Phishing Detection](screenshots/phishing.png analysis -1.png)
+![Phishing Detection](screenshots/phishing_detection.png)
 
 ---
 
 ## Legitimate Email Detection
 
-![Legitimate Email](screenshots/legitimate.png.png)
+![Legitimate Email](screenshots/legitimate_email.png)
 
 ---
 
 ## Analytics Dashboard
 
-![Analytics](screenshots/analytics.png.png)
+![Analytics](screenshots/analytics.png)
 
 ---
 
 ## PDF Security Report
 
-![PDF Report](screenshots/pdf-report.png.png)
+![PDF Report](screenshots/pdf_report.png)
 
 ---
 
