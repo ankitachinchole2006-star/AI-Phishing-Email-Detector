@@ -21,7 +21,7 @@ This project builds an intelligent email security system that automatically anal
 - 🚨 Phishing Email
 - ✅ Legitimate Email
 
-Unlike traditional detection systems that only provide a prediction, this project provides:
+The system provides:
 
 - Risk scoring
 - Threat indicators
@@ -41,8 +41,6 @@ Unlike traditional detection systems that only provide a prediction, this projec
 - Analyze pasted email content
 - Automated threat identification
 
----
-
 ## 🤖 Artificial Intelligence & Machine Learning
 
 - NLP-based email analysis
@@ -50,8 +48,6 @@ Unlike traditional detection systems that only provide a prediction, this projec
 - Machine Learning classification model
 - Confidence score prediction
 - Automated phishing detection
-
----
 
 ## 🛡️ Cybersecurity Analysis
 
@@ -62,8 +58,6 @@ Unlike traditional detection systems that only provide a prediction, this projec
 - Severity classification
 - Phishing attack type detection
 
----
-
 ## 📊 Interactive Security Dashboard
 
 - Streamlit-based interface
@@ -71,8 +65,6 @@ Unlike traditional detection systems that only provide a prediction, this projec
 - Security analytics visualization
 - Scan history tracking
 - Detection statistics
-
----
 
 ## 📄 Security Reporting
 
@@ -85,7 +77,7 @@ Unlike traditional detection systems that only provide a prediction, this projec
 
 # 🏗️ System Architecture
 
-```
+```text
                  Email Input
                      |
                      ↓
@@ -115,25 +107,25 @@ Unlike traditional detection systems that only provide a prediction, this projec
 
 ### 1. Email Collection
 
-The user uploads an email file (`.eml`) or enters email content manually.
+User uploads an email file (`.eml`) or enters email content manually.
 
 ↓
 
 ### 2. Email Preprocessing
 
-The system cleans and prepares the email text for analysis.
+The system cleans and prepares the email text.
 
 ↓
 
 ### 3. NLP Feature Extraction
 
-The email content is converted into numerical features using TF-IDF vectorization.
+Email content is converted into numerical features using TF-IDF vectorization.
 
 ↓
 
 ### 4. Machine Learning Prediction
 
-The trained model analyzes patterns and predicts:
+The trained model predicts:
 
 - 🚨 Phishing
 - ✅ Legitimate
@@ -142,7 +134,7 @@ The trained model analyzes patterns and predicts:
 
 ### 5. Threat Analysis
 
-The system checks for:
+The system checks:
 
 - Suspicious keywords
 - URLs
@@ -159,7 +151,7 @@ A risk score and severity level are generated.
 
 ### 7. Security Explanation
 
-The system explains why the email was classified and provides recommendations.
+The system explains the prediction and provides recommendations.
 
 ---
 
@@ -180,8 +172,9 @@ The system explains why the email was classified and provides recommendations.
 
 # 📂 Project Structure
 
-```
+```text
 AI-Phishing-Email-Detector
+
 │
 ├── src/
 │   ├── app.py
@@ -247,17 +240,46 @@ pip install -r requirements.txt
 
 # ▶️ Run Application
 
-Start the Streamlit dashboard:
+Start Streamlit dashboard:
 
 ```bash
 streamlit run src/app.py
 ```
 
-Open in browser:
+Open:
 
-```
+```text
 http://localhost:8501
 ```
+
+---
+
+# 🎥 Demo
+
+The AI-Powered Phishing Email Detector provides an end-to-end email security analysis workflow.
+
+## Workflow
+
+1. Upload an email file (`.eml`) or paste email content
+2. Email preprocessing is performed
+3. NLP extracts important features
+4. Machine Learning model predicts classification
+5. Security engines analyze threats
+6. Dashboard displays risk score, explanation, and recommendations
+
+---
+
+## Detection Output
+
+The application provides:
+
+✅ Email classification  
+✅ Confidence score  
+✅ Risk level assessment  
+✅ Suspicious indicators  
+✅ Phishing attack category  
+✅ AI-generated security explanation  
+✅ Security recommendations  
 
 ---
 
