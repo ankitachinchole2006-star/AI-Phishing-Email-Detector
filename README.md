@@ -13,6 +13,20 @@ The system analyzes email content, identifies suspicious indicators, classifies 
 ---
 
 # 📌 Project Overview
+---
+
+# ⭐ Key Highlights
+
+- Built an end-to-end AI cybersecurity application for phishing email detection
+- Implemented NLP-based text analysis using TF-IDF vectorization
+- Developed a Machine Learning classification pipeline using Scikit-learn
+- Added cybersecurity threat analysis and risk scoring mechanisms
+- Created an interactive Streamlit security dashboard
+- Generated automated security explanations and recommendations
+- Implemented scan history tracking and PDF security reporting
+- Achieved high model performance on phishing email classification
+
+---
 
 Phishing attacks are one of the most common cybersecurity threats used by attackers to steal credentials, financial information, and sensitive data.
 
