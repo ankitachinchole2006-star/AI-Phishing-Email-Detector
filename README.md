@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--learn-orange)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![Cybersecurity](https://img.shields.io/badge/Domain-Cybersecurity-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 🛡️ AI-Powered Phishing Email Detector
 
 An AI-based cybersecurity application that detects phishing emails using Machine Learning, Natural Language Processing (NLP), threat analysis, and risk scoring.
